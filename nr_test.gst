@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="sys-59d2-19e2-bf22-6c5a" name="Arsenal Test" battleScribeVersion="2.03" revision="6" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
-    <!-- Chosen Pilot in MCV selection -->
-    <categoryEntry name="Pilot Selection" id="879b-8f9a-ae98-a786" hidden="false">
+    <categoryEntry name="Pilot" id="879b-8f9a-ae98-a786" hidden="false">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="52fb-6d00-f87e-f99f" includeChildSelections="true" includeChildForces="true"/>
         <constraint type="max" value="2" field="selections" scope="force" shared="true" id="2898-bf5e-6dd3-ad73" includeChildSelections="true" includeChildForces="true"/>
